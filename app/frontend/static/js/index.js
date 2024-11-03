@@ -1,16 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import VmList  from '../react/components/VmList';
 
-class IndexPage {
-    constructor() {
+class IndexPage extends React.Component {
+    constructor(props) {
+        super(props);
         console.log("Index Page Constructor");
     }
 
-    init() {
+    componentDidMount() {
         console.log("Index Page Init");
     }
+
+    render() {
+        return <VmList/>
+    }
 }
-
-
-const indexPage = new IndexPage()
-indexPage.init()
-
-export default indexPage
+ReactDOM.render(<IndexPage />, document.getElementById('react-component'));

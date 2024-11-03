@@ -1,3 +1,7 @@
+asgiref==3.8.1
 Django==3.2.13
 django-webpack-loader==3.1.0
-djangorestframework~=3.12.2
+djangorestframework==3.12.4
+python-decouple==3.8
+pytz==2024.2
+sqlparse==0.5.1

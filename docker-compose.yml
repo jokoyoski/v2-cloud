@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  django:
+    build: ./app
+    environment:
+      - DB_PATH=db.sqlite3
+    ports:
+      - "8000:8000"
