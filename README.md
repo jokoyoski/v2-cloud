@@ -16,7 +16,7 @@
 3. Open the application in your browser:
    [http://localhost:8000/](http://localhost:8000/)
 
-## Key Features
+## Additional  I Key Features Added
 
 - **Automated Testing**: The `entrypoint.sh` script now includes a test command, ensuring that tests run automatically during the Docker build and startup process. If any tests fail, the build will halt.
 
